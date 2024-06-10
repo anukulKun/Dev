@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    
+}
+.hello{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contain{
+    display: inline-block;
+    justify-content: left;
+    align-items:flex-start;
+}
+
+.sign-button, .order-button {
+    background-color: #FF6F00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #FF6F00;
+}
+
+h1 span {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.order-button {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+main {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tagline span {
+    background-color: #FFE5B4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #FF6F00;
+}
+
+h2 {
+    font-size: 48px;
+    color: #333;
+    margin: 20px 0;
+}
+
+p {
+    color: #666;
+    margin: 20px 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.stats div {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.stats div span {
+    display: block;
+    font-size: 24px;
+    color: #FF6F00;
+}
+
+.image-section {
+    position: relative;
+    display: inline-block;
+}
+
+.image-section img {
+    width: 300px;
+    border-radius: 10px;
+    float: right;
+}
+
+.customer-rating, .calories {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: left;
+}
+
+.customer-rating {
+    left: -30px;
+    bottom: 60px;
+}
+
+.customer-rating span {
+    display: block;
+    color: #666;
+}
+
+.rating {
+    color: #FF6F00;
+}
+
+.calories {
+    bottom: 20px;
+    right: -10px;
+}
+
+.calories span {
+    display: block;
+    color: #FF6F00;
+    font-size: 24px;
+}
+
+.why-choose-us {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: left;
+    padding-left: 20px;
+    padding: 50px 20px;
+    background-color: #fff;
+
+}
+
+.why-choose-us h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.why-choose-us h2 span {
+    color: #ffa500;
+}
+
+.why-choose-us .description {
+    margin-bottom: 40px;
+    color: #777;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card .icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.card .learn-more {
+    color: #ffa500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card .learn-more:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-top: 1px solid #eee;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h2, .footer-section h3 {
+    color: #ffa500;
+}
+
+.footer-section p {
+    color: #777;
+    margin: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #777;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffa500;
+}
+
+
+
+.social-icons a {
+    text-decoration: none;
+    color: #ffa500;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #333;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer div {
+    margin: 10px;
+}

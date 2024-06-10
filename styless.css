@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container{
+  
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+h1 {
+    font-size: 24px;
+    color: #333;
+    
+}
+
+span {
+    color: #FF6F00;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-align: right;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sign-button{
+    background-color: #FF6F00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+    padding: 50px;
+}
+
+.tagline span{
+    background-color: #FF6F00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+footer{
+
+    background-color: #fff;
+    padding: 40px 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+
+}
+footer > div{
+    display: inline-block;
+    justify-content: center;
+    padding: auto;
+}
+
+footer > div > p > a{
+    text-align: right;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+#hio{
+    margin: ;
+
+}
