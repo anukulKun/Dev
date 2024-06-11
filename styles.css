@@ -166,40 +166,6 @@ p {
 
 
 
-.customer-rating, .calories {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    border-radius: 10px;
-    position: absolute;
-    text-align: left;
-}
-
-.customer-rating {
-    left: -30px;
-    bottom: 60px;
-}
-
-.customer-rating span {
-    display: block;
-    color: #666;
-}
-
-.rating {
-    color: #FF6F00;
-}
-
-.calories {
-    bottom: 20px;
-    right: -10px;
-}
-
-.calories span {
-    display: block;
-    color: #FF6F00;
-    font-size: 24px;
-}
-
 
 
 .why-choose{
