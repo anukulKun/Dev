@@ -24,8 +24,10 @@ body {
 
 .hello{
    
-    font-weight: 100;
+    font-weight: 300;
     margin:0;
+    list-style: none;
+   
 }
 
 .container {
@@ -76,6 +78,13 @@ body {
     background-color: #FFE5B4;
     
 }
+
+
+
+
+
+
+
 .tagline span {
    
     padding: 5px 10px;
@@ -135,7 +144,7 @@ p {
 
 .stats {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: 30px 0;
 }
 
@@ -190,3 +199,79 @@ p {
     color: #FF6F00;
     font-size: 24px;
 }
+
+
+
+.why-choose{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.description{
+    width: 30%;
+    
+}
+.cards{
+    display: flex;
+}
+.card{
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+    width: 30%;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+   height: 20vh;
+    font-style: none;
+    margin-top: 70px;
+
+
+}
+.fea{
+    list-style: none;
+}
+span{
+    color: #FF6F00;
+
+}
+#hio{
+    width: 40%;
+}
+
+
