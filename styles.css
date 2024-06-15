@@ -27,6 +27,10 @@ body {
     font-weight: 300;
     margin:0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
    
 }
 
@@ -186,7 +190,7 @@ p {
 }
 .card{
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                                                                                                                                                                                                                                                                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
     border-radius: 10px;
     margin: 0 10px;
