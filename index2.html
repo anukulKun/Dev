@@ -1,4 +1,4 @@
-<!DOCTYPE html class = "font-Poppins" >
+<!DOCTYPE html class = "font-Poppins m-0 p-0 box-border font-Poppins" >
 <html lang="en">
 
 <head>
@@ -15,14 +15,14 @@
 
 <body class = "bg-white font-Poppins flex flex-col justify-center w-5/6 mx-auto my-0 p-0 ">
     <header>
-        <div class="flex justify-around items-center h-30">
+        <div class="flex flex-row justify-between m-3">
             <h1><span class="text-red-400">JEZ </span>SALAD</h1>
             <nav>
-                <ul class=" flex decoration-none ">
-                    <li><a href="#"><span>Home</span></a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About Us</a></li>
+                <ul class=" flex  ">
+                    <li><a href="#"><span class="text-red-400 mx-4">Home</span></a></li>
+                    <li><a href="#" class="mx-4">Menu</a></li>
+                    <li><a href="#" class="mx-4">Contact</a></li>
+                    <li><a href="#"class="mx-4">About Us</a></li>
                 </ul>
             </nav>
             <button class="bg-orange-600 border-none px-5 py-2 rounded-full ">Sign</button>
@@ -32,19 +32,20 @@
     <main>
         <div class=" flex justify-between items-center h-90%" >
             <!-- tagline div --> 
-            <div class="tagline">
-                <span id=""
-                >#1 Best Healthy Salad</span>
-                <h2><span class="color-#FF6F00">Skip</span> The Diet,<br />Just Eat Healthy<br />With Jez Salad</h2>
+            <div>
+                <span class="text-red-400 bg-red-300 rounded-full p-1 ">#1 Best Healthy Salad</span>
+                <h2><span class="text-red-400">Skip</span> The Diet,<br />Just Eat Healthy<br />With Jez Salad</h2>
                 <p>
                     Imagine you don't need a diet because we provide healthy and delicious
                     food for you!
                 </p>
-                <button class="order-button">Order Food</button>
-                <div class="stats">
-                    <div>8.000+<br> Customer</div>
-                    <div>8.000+ <br>Delivery</div>
-                    <div>8.000+<br> Ratings</div>
+                <button class="bg-red-400 text-white p-1 rounded-full">Order Food</button>
+
+
+                <div class="flex flex-row ">
+                    <div class =" mx-4">8.000+<br> Customer</div>
+                    <div class="mx-4">8.000+ <br>Delivery</div>
+                    <div class="mx-4">8.000+<br> Ratings</div>
                 </div>
             </div>
 
@@ -67,19 +68,23 @@
         </div>
     </main>
 
+
+
+
+
     <section class="why-choose-us">
-        <div class="why-choose flex items-center justify-between h-30vh mx-20">
+        <div class=" flex items-center justify-between">
             <h2>
-                Why Choose Us <br /> For <span>Your Healthy Food</span>
+                Why Choose Us <br /> For <span class="text-red-400">Your Healthy Food</span>
             </h2>
-            <p class="description w-px-30">
+            <p class="w-1/4 ">
                 We continue to consistently choose and maintain the quality of the
                 fruit served, so that it remains fresh and nutritious when you eat it.
             </p>
         </div>
 
-        <div class="flex">
-            <div class="bg-white text-center mx-10 justify-around">
+        <div class="flex flex-row justify-between items-center">
+            <div class="shadow-md flex flex-col justify-center items-center">
                 <div class="icon">
                     <img src="./images/ong 1.png" />
                 </div>
@@ -91,7 +96,7 @@
                 <a href="#" class="learn-more">Learn more</a>
             </div>
 
-            <div class="card p-px-10 border-spacing-10 - mx-0 my-10 w-1.5/3 ">
+            <div class="shadow-md flex flex-col justify-center items-center ">
                 <div class="icon">
                     <img src="./images/ong 2.png" />
                 </div>
@@ -103,7 +108,7 @@
                 <button class="sign-button">Learn more</button>
             </div>
 
-            <div class="card">
+            <div class="shadow-md flex flex-col justify-center items-center">
                 <div class="icon">
                     <img src="./images/ong 3.png" />
                 </div>
@@ -120,7 +125,7 @@
     
     <footer class="flex justify-between font-semibold mx-0">
         <div>
-            <h3><span>JEZ</span> SALAD</h3>
+            <h3><span class="text-orange-500 h3">JEZ</span> SALAD</h3>
             <p class="w-4/5">
                 Jez Salad is the pioneer of healthy fruit salad with high nutrition.
             </p>
