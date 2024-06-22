@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: #283149;
+}
+
+.popup {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border-color: aliceblue;
+    background-color: antiquewhite;
+    height: 100px; /* Added for better visibility */
+    width: 200px;  /* Added for better visibility */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.popup.hola {
+    visibility: visible;
+    opacity: 1;
+}
